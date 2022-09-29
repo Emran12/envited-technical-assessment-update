@@ -1,0 +1,95 @@
+.title{
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.snapchat{
+        line-height: 41px;
+        background: -webkit-linear-gradient(#8456EC,#E87BF8);
+         -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: block;
+}
+.subTitle {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #4F4F4F;
+}
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+        .title{
+                text-align: center;
+        }
+        .subTitle{
+                text-align: center;
+                padding: 0px 27px;
+        }
+        .landingPage{
+                width: 166px;
+                height: 292px;
+                margin: 34px 106px;
+        }
+        .createEvent{
+              
+                background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+        }
+       
+}
+
+
+@media only screen and (min-width: 600px) {
+        .title{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-size: 64px;
+                line-height: 64px;
+                text-align: center;
+                color: #240D57;
+              
+        }
+        .subTitle{
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                padding: 0 219px;
+                color: #4F4F4F;
+        }
+        .snapchat{
+                padding: 10px;
+        }
+        .landingPage{
+                width: 311px;
+                height: 549px;
+                
+
+        }
+    
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    
+
+
+}
